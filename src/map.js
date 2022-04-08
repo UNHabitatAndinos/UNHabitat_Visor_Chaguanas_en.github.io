@@ -412,5 +412,5 @@ map.addControl(layersControl);
 changeIndi({value: 'NBI_VIV'});
 
 function popupText(feature, layer) {
-    layer.bindPopup('Comunidad ' + feature.properties.COMM_NAME + '<br />')
+    layer.bindPopup('Community ' + feature.properties.COMM_NAME + '<br />')
 }
